@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  min-width: 320px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  font-weight: normal;
+
+  background-color: #fff;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  background: url(./img/background.png) #333 center/cover repeat;
+
+  box-sizing: border-box;
+}
+
+.chat__content {
+  flex: 1 0 0;
+
+  overflow: auto;
+  background-color: transparent;
+}
+
+.chat__pane {
+  flex: none;
+
+  background-color: transparent;
+}
+
+.chat-pane__textarea {
+  resize: none;
+}
