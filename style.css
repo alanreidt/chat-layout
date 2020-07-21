@@ -183,3 +183,42 @@ body {
   resize: none;
   box-sizing: border-box;
 }
+
+.chat-pane__button {
+  /* reset <button>, <input> styles */
+  padding: 0;
+  border: none;
+  background-color: transparent;
+
+  /* reset <a> styles */
+  text-decoration: none;
+
+  /* add compatibility between html elements (<a>, <button>, <input>) */
+  cursor: pointer;
+
+  /* add standart behavior of a <button> to compatibility with <a> */
+  /* isolate component's rules from external influence */
+  display: inline-block;
+  vertical-align: top;
+
+  /* add standart behavior of a <button> to compatibility with <a> */
+  /* isolate component's rules from external influence */
+  box-sizing: border-box;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  padding: 10px 22px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: normal;
+
+  color: #FFF;
+  background-color: #0F54B9;
+  box-shadow: 0px 4px 6px rgba(15, 84, 185, 0.3);
+  border-radius: 21px;
+  text-align: center;
+}
