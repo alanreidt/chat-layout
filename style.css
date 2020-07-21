@@ -24,6 +24,8 @@ body {
 
 .chat__content {
   flex: 1 0 0;
+  padding-top: 40px;
+  padding-bottom: 30px;
 
   overflow: auto;
 }
@@ -36,6 +38,10 @@ body {
   margin-bottom: 20px;
   padding-left: 15px;
   padding-right: 19px;
+}
+
+.message:last-child {
+  margin-bottom: 0;
 }
 
 .message_outgoing {
