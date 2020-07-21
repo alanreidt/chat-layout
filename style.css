@@ -37,6 +37,21 @@ body {
   padding-right: 19px;
 }
 
+.message_outgoing {
+  flex-direction: row-reverse;
+}
+
+.message_outgoing .message__img-wrapper {
+  padding-right: 0;
+  padding-left: 18px;
+}
+
+.message_outgoing .message__text::before {
+  left: auto;
+  right: 0;
+  transform: translateX(50%);
+}
+
 .message__img-wrapper {
   display: block;
   flex: none;
