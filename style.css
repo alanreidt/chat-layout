@@ -32,8 +32,9 @@ body {
   flex-flow: row nowrap;
   align-items: flex-start;
 
-  padding-left: 15px;
   margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 19px;
 }
 
 .message__img-wrapper {
@@ -58,13 +59,35 @@ body {
 }
 
 .message__text {
+  position: relative;
+
+  max-width: 470px;
+
   margin-top: 0;
   margin-bottom: 0;
-
   padding: 10px;
 
   background-color: #F1F3F5;
   border-radius: 5px;
+
+  box-sizing: border-box;
+}
+
+.message__text::before {
+  content: '';
+
+  position: absolute;
+  top: 5px;
+  left: 0;
+  transform: translateX(-50%);
+
+  display: inline-block;
+  vertical-align: top;
+
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: #F1F3F5;
 }
 
 .chat__pane {
