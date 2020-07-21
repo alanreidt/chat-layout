@@ -13,13 +13,15 @@
   <!-- <div class="app">
     <div class="app__container">
       <div class="app__inner">
-        <header class="app__header"></header>
-        <div class="app__body">
-          <div class="app__side-panel"></div>
-          <div class="app__chat-window">
-            <div class="chat-window">
-              <div class="chat-window__dialog"></div>
-              <div class="chat-window__panel"></div>
+        <div class="app__box">
+          <header class="app__header"></header>
+          <div class="app__body">
+            <div class="app__side-panel"></div>
+            <div class="app__chat-window">
+              <div class="chat-window">
+                <div class="chat-window__dialog"></div>
+                <div class="chat-window__panel"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -27,71 +29,79 @@
     </div>
   </div> -->
 
-  <div class="chat-window">
-    <div class="chat-window__dialog">
-      <div class="dialog">
-        <div class="message">
-          <div class="message__img-wrapper">
-            <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
-          </div>
-          <p class="message__text">
-            Это означает, что в&nbsp;Вашем доме, офисе, кабинете, мастерской хранятся ценности б&oacute;льшие,
-            чем просто деньги или драгоценности,&nbsp;&mdash; культурные ценности.
-            Произведения искусства, антиквариат, иные предметы коллекционирования&nbsp;&mdash; все это имущество,
-            безусловно высокая стоимость которого.
-          </p>
-        </div>
+  <div class="app">
+    <div class="app__container">
+      <div class="app__inner">
+        <div class="app__box">
+          <div class="chat-window">
+            <div class="chat-window__dialog">
+              <div class="dialog">
+                <div class="message">
+                  <div class="message__img-wrapper">
+                    <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
+                  </div>
+                  <p class="message__text">
+                    Это означает, что в&nbsp;Вашем доме, офисе, кабинете, мастерской хранятся ценности б&oacute;льшие,
+                    чем просто деньги или драгоценности,&nbsp;&mdash; культурные ценности.
+                    Произведения искусства, антиквариат, иные предметы коллекционирования&nbsp;&mdash; все это имущество,
+                    безусловно высокая стоимость которого.
+                  </p>
+                </div>
 
-        <div class="message message_outgoing">
-          <div class="message__img-wrapper">
-            <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
-          </div>
-          <p class="message__text">
-            Это означает,
-          </p>
-        </div>
+                <div class="message message_outgoing">
+                  <div class="message__img-wrapper">
+                    <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
+                  </div>
+                  <p class="message__text">
+                    Это означает,
+                  </p>
+                </div>
 
-        <div class="message">
-          <div class="message__img-wrapper">
-            <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
-          </div>
-          <p class="message__text">
-            доме, офисе, кабинете, мастерской
-          </p>
-        </div>
+                <div class="message">
+                  <div class="message__img-wrapper">
+                    <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
+                  </div>
+                  <p class="message__text">
+                    доме, офисе, кабинете, мастерской
+                  </p>
+                </div>
 
-        <div class="date-divider">
-          <span class="date-divider__text">21&nbsp;октября 2017</span>
-        </div>
+                <div class="date-divider">
+                  <span class="date-divider__text">21&nbsp;октября 2017</span>
+                </div>
 
-        <div class="message message_outgoing">
-          <div class="message__img-wrapper">
-            <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
-          </div>
-          <p class="message__text">
-            Это означает,
-          </p>
-        </div>
+                <div class="message message_outgoing">
+                  <div class="message__img-wrapper">
+                    <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
+                  </div>
+                  <p class="message__text">
+                    Это означает,
+                  </p>
+                </div>
 
-        <div class="message">
-          <div class="message__img-wrapper">
-            <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
+                <div class="message">
+                  <div class="message__img-wrapper">
+                    <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
+                  </div>
+                  <p class="message__text">
+                    доме, офисе, кабинете, мастерской
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="chat-window__panel">
+              <div class="chat-panel">
+                <form class="chat-panel__form">
+                  <label class="chat-panel__textarea-label" for="chat-panel-textarea">Message:</label>
+                  <textarea class="chat-panel__textarea" name="chat-panel-textarea" id="chat-panel-textarea" cols="30" rows="10" placeholder="Type your message"></textarea>
+                  <div class="chat-panel__button">
+                    <button class="button" type="button">Отправить</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
-          <p class="message__text">
-            доме, офисе, кабинете, мастерской
-          </p>
         </div>
-      </div>
-    </div>
-    <div class="chat-window__panel">
-      <div class="chat-panel">
-        <form class="chat-panel__form">
-          <label class="chat-panel__textarea-label" for="chat-panel-textarea">Message:</label>
-          <textarea class="chat-panel__textarea" name="chat-panel-textarea" id="chat-panel-textarea" cols="30" rows="10" placeholder="Type your message"></textarea>
-          <div class="chat-panel__button">
-            <button class="button" type="button">Отправить</button>
-          </div>
-        </form>
       </div>
     </div>
   </div>
