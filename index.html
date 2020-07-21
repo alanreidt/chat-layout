@@ -10,8 +10,25 @@
   <title>WebChat — quickly send and receive messages right from your computer.</title>
 </head>
 <body>
-  <div class="chat">
-    <div class="chat__content">
+  <!-- <div class="app">
+    <div class="app__container">
+      <div class="app__inner">
+        <header class="app__header"></header>
+        <div class="app__body">
+          <div class="app__side-panel"></div>
+          <div class="app__chat-window">
+            <div class="chat-window">
+              <div class="chat-window__dialog"></div>
+              <div class="chat-window__panel"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="chat-window">
+    <div class="chat-window__content">
       <div class="message">
         <div class="message__img-wrapper">
           <img class="message__img" width="47" src="./img/user.png" alt="user's photo">
@@ -64,7 +81,7 @@
         </p>
       </div>
     </div>
-    <div class="chat__pane">
+    <div class="chat-window__pane">
       <div class="chat-pane">
         <form class="chat-pane__form">
           <label class="chat-pane__textarea-label" for="chat-pane-textarea">Message:</label>

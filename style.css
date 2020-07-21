@@ -12,7 +12,7 @@ body {
   background-color: #fff;
 }
 
-.chat {
+.chat-window {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -23,7 +23,7 @@ body {
   box-sizing: border-box;
 }
 
-.chat__content {
+.chat-window__content {
   flex: 1 0 0;
   padding-top: 40px;
   padding-bottom: 30px;
@@ -138,7 +138,7 @@ body {
   background-attachment: fixed;
 }
 
-.chat__pane {
+.chat-window__pane {
   flex: none;
 }
 
