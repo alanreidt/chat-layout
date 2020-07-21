@@ -23,7 +23,7 @@ body {
   box-sizing: border-box;
 }
 
-.chat-window__content {
+.chat-window__dialog {
   flex: 1 0 0;
   padding-top: 40px;
   padding-bottom: 30px;
@@ -138,7 +138,7 @@ body {
   background-attachment: fixed;
 }
 
-.chat-window__pane {
+.chat-window__panel {
   flex: none;
 }
 
