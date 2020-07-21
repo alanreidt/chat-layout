@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   height: 100vh;
 
-  background: url(./img/background.png) #333 center/cover repeat;
+  background: url("./img/background.png") #333 center/cover repeat;
 
   box-sizing: border-box;
 }
@@ -25,7 +25,6 @@ body {
   flex: 1 0 0;
 
   overflow: auto;
-  background-color: transparent;
 }
 
 .message {
@@ -70,8 +69,6 @@ body {
 
 .chat__pane {
   flex: none;
-
-  background-color: transparent;
 }
 
 .chat-pane__textarea {
