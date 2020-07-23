@@ -4,7 +4,9 @@
   "description": "Test task for AGIMA Intern Frontend Developer position",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf docs && parcel build src/index.html --out-dir docs --public-url /chat-layout",
+    "dev": "parcel src/index.html -p 3000"
   },
   "repository": {
     "type": "git",
