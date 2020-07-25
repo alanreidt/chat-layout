@@ -1,3 +1,5 @@
+@import "./components/message.scss";
+
 /* Roboto — latin and cyrillic */
 @font-face {
   font-family: 'Roboto';
@@ -174,102 +176,6 @@ body {
 
   overflow: auto;
   box-sizing: border-box;
-}
-
-.message {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-
-  margin-bottom: 20px;
-  padding-left: 15px;
-  padding-right: 19px;
-}
-
-.message:last-child {
-  margin-bottom: 0;
-}
-
-.message_outgoing {
-  flex-direction: row-reverse;
-}
-
-.message_outgoing .message__img-wrapper {
-  margin-right: 0;
-  margin-left: 19px;
-}
-
-.message_outgoing .message__text {
-  padding-right: 22px;
-  padding-left: 10px;
-}
-
-.message_outgoing .message__text::before {
-  left: auto;
-  right: 0;
-  transform: translateX(50%);
-}
-
-.message__img-wrapper {
-  display: block;
-  flex: none;
-
-  width: 46px;
-  height: 46px;
-  margin-right: 19px;
-
-  box-sizing: border-box;
-}
-
-.message__svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-.message__image {
-  display: inline-block;
-  vertical-align: top;
-  object-fit: cover;
-
-  width: 100%;
-  height: 100%;
-
-  box-sizing: border-box;
-}
-
-.message__text {
-  position: relative;
-
-  max-width: 470px;
-
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 13px 15px 9px 16px;
-
-  text-align: left;
-  background-color: #F1F3F5;
-  border-radius: 5px;
-
-  box-sizing: border-box;
-}
-
-.message__text::before {
-  content: '';
-
-  position: absolute;
-  top: 7px;
-  left: 0;
-  transform: translateX(-50%);
-
-  display: inline-block;
-  vertical-align: top;
-
-  width: 0;
-  height: 0;
-  border: 7px solid transparent;
-  border-top-color: #F1F3F5;
 }
 
 .date-divider {
