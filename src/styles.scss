@@ -1,6 +1,7 @@
 @import "./styles/fonts.scss";
 @import "./styles/variables.scss";
 @import "./styles/mixins.scss";
+@import "./components/app.scss";
 @import "./components/chat-window.scss";
 @import "./components/dialog.scss";
 @import "./components/message.scss";
@@ -27,28 +28,4 @@ body {
 
   color: $main-color;
   background-color: $main-background-color;
-}
-
-.app {
-  @include block-default-styles;
-}
-
-.app__container {
-  @include block-default-styles;
-
-  max-width: $box-width;
-  margin: 0 auto;
-}
-
-.app__inner {
-  @include block-default-styles;
-
-  padding-top: 46px;
-}
-
-.app__box {
-  @include block-default-styles;
-
-  max-height: $box-height;
-  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.15);
 }
