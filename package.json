@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/alanreidt/chat-layout#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10"
   }
 }
