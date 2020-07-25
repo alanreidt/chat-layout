@@ -3,6 +3,7 @@
 @import "./styles/mixins.scss";
 @import "./components/message.scss";
 @import "./components/date-divider.scss";
+@import "./components/chat-panel.scss";
 @import "./components/textarea-field.scss";
 @import "./components/button.scss";
 
@@ -76,24 +77,4 @@ body {
 
 .chat-window__panel {
   flex: none;
-}
-
-.chat-panel {
-  @include block-default-styles;
-
-  padding: 20px;
-  padding-bottom: 30px;
-
-  border-top: 1px solid #DBDBDB;
-}
-
-.chat-panel__textarea-field {
-  @include block-default-styles;
-
-  max-width: 590px;
-  margin-bottom: 20px;
-}
-
-.chat-panel__button {
-  text-align: left;
 }
