@@ -1,0 +1,22 @@
+@mixin block-default-styles {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  box-sizing: border-box;
+}
+
+@mixin visually-hidden {
+  position: absolute;
+
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+
+  clip: rect(0 0 0 0);
+	overflow: hidden;
+}

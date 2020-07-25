@@ -1,19 +1,14 @@
 @import "./styles/fonts.scss";
+@import "./styles/mixins.scss";
 @import "./components/message.scss";
 @import "./components/date-divider.scss";
 
 html {
-  display: block;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  @include block-default-styles;
 }
 
 body {
-  display: block;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  @include block-default-styles;
 
   margin: 0;
   min-width: 320px;
@@ -29,53 +24,38 @@ body {
 }
 
 .app {
-  display: block;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  @include block-default-styles;
 
   background-color: #fff;
 }
 
 .app__container {
-  display: block;
-  width: 100%;
-  max-width: 651px;
-  height: 100%;
-  margin: 0 auto;
+  @include block-default-styles;
 
-  box-sizing: border-box;
+  max-width: 651px;
+  margin: 0 auto;
 }
 
 .app__inner {
-  display: block;
-  width: 100%;
-  height: 100%;
+  @include block-default-styles;
 
   padding-top: 46px;
-
-  box-sizing: border-box;
 }
 
 .app__box {
-  display: block;
-  width: 100%;
-  height: 100%;
-  max-height: 757px;
+  @include block-default-styles;
 
+  max-height: 757px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.15);
-  box-sizing: border-box;
 }
 
 .chat-window {
+  @include block-default-styles;
+
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
 
   background: url("./img/background_tablet.jpg") #333 center top / contain fixed no-repeat;
-
-  box-sizing: border-box;
 }
 
 .chat-window__dialog {
@@ -85,15 +65,12 @@ body {
 }
 
 .dialog {
-  display: block;
-  width: 100%;
-  height: 100%;
+  @include block-default-styles;
 
   padding-top: 41px;
   padding-bottom: 30px;
 
   overflow: auto;
-  box-sizing: border-box;
 }
 
 .chat-window__panel {
@@ -101,52 +78,32 @@ body {
 }
 
 .chat-panel {
-  display: block;
-  width: 100%;
-  height: 100%;
+  @include block-default-styles;
+
   padding: 20px;
   padding-bottom: 30px;
 
   border-top: 1px solid #DBDBDB;
-  box-sizing: border-box;
 }
 
 .chat-panel__textarea-field {
-  display: block;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  @include block-default-styles;
 
   max-width: 590px;
   margin-bottom: 20px;
 }
 
 .textarea-field {
-  display: block;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  @include block-default-styles;
 }
 
 .textarea-field__label {
-	position: absolute;
-
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-
-	white-space: nowrap;
-
-  clip: rect(0 0 0 0);
-	overflow: hidden;
+  @include visually-hidden;
 }
 
 .textarea-field__textarea {
-  display: block;
-  width: 100%;
-  height: 100%;
+  @include block-default-styles;
+
   max-height: 129px;
   padding: 10px;
 
@@ -162,7 +119,6 @@ body {
   color: #696969;
   background-color: #fff;
   resize: none;
-  box-sizing: border-box;
 }
 
 .chat-panel__button {
