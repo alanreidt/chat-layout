@@ -1,0 +1,20 @@
+@import "../styles/mixins.scss";
+
+.chat-window {
+  @include block-default-styles;
+
+  display: flex;
+  flex-direction: column;
+
+  background: $box-background;
+
+  &__dialog {
+    flex: 1 0 0;
+
+    overflow: auto;
+  }
+
+  &__panel {
+    flex: none;
+  }
+}

@@ -1,6 +1,7 @@
 @import "./styles/fonts.scss";
 @import "./styles/variables.scss";
 @import "./styles/mixins.scss";
+@import "./components/chat-window.scss";
 @import "./components/dialog.scss";
 @import "./components/message.scss";
 @import "./components/date-divider.scss";
@@ -50,23 +51,4 @@ body {
 
   max-height: $box-height;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.15);
-}
-
-.chat-window {
-  @include block-default-styles;
-
-  display: flex;
-  flex-direction: column;
-
-  background: $box-background;
-}
-
-.chat-window__dialog {
-  flex: 1 0 0;
-
-  overflow: auto;
-}
-
-.chat-window__panel {
-  flex: none;
 }
