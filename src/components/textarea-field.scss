@@ -12,6 +12,9 @@ $textarea-font-size: 14px;
   &__textarea {
     @include block-default-styles;
 
+    margin-top: 0;
+    margin-bottom: 0;
+
     max-height: 129px;
     padding: 10px;
 
