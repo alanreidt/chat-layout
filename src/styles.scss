@@ -1,6 +1,6 @@
 @import "./styles/fonts.scss";
-@import "./styles/variables.scss";
-@import "./styles/mixins.scss";
+@import "./styles/base.scss";
+
 @import "./components/app.scss";
 @import "./components/chat-window.scss";
 @import "./components/dialog.scss";
@@ -9,23 +9,3 @@
 @import "./components/chat-panel.scss";
 @import "./components/textarea-field.scss";
 @import "./components/button.scss";
-
-html {
-  @include block-default-styles;
-}
-
-body {
-  @include block-default-styles;
-
-  margin: 0;
-  min-width: 320px;
-
-  font-family: $main-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  font-style: normal;
-  font-weight: 400;
-
-  color: $main-color;
-  background-color: $main-background-color;
-}

@@ -1,0 +1,22 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+html {
+  @include block-default-styles;
+}
+
+body {
+  @include block-default-styles;
+
+  margin: 0;
+  min-width: 320px;
+
+  font-family: $main-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-style: normal;
+  font-weight: 400;
+
+  color: $main-color;
+  background-color: $main-background-color;
+}
