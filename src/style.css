@@ -1,3 +1,87 @@
+/* Roboto — latin and cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('./fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'),
+       url('./fonts/roboto/roboto-v20-latin_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'),
+       url('./fonts/roboto/roboto-v20-latin_cyrillic-italic.woff2') format('woff2'),
+       url('./fonts/roboto/roboto-v20-latin_cyrillic-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('./fonts/roboto/roboto-v20-latin_cyrillic-700.woff2') format('woff2'),
+       url('./fonts/roboto/roboto-v20-latin_cyrillic-700.woff') format('woff');
+}
+
+/* Noto Sans — latin and cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'),
+       url('./fonts/noto-sans/noto-sans-v9-latin_cyrillic-regular.woff2') format('woff2'),
+       url('./fonts/noto-sans/noto-sans-v9-latin_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Noto Sans Italic'), local('NotoSans-Italic'),
+       url('./fonts/noto-sans/noto-sans-v9-latin_cyrillic-italic.woff2') format('woff2'),
+       url('./fonts/noto-sans/noto-sans-v9-latin_cyrillic-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+       url('./fonts/noto-sans/noto-sans-v9-latin_cyrillic-700.woff2') format('woff2'),
+       url('./fonts/noto-sans/noto-sans-v9-latin_cyrillic-700.woff') format('woff');
+}
+
+/* Montserrat — latin and cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('./fonts/montserrat/montserrat-v14-latin_cyrillic-regular.woff2') format('woff2'),
+       url('./fonts/montserrat/montserrat-v14-latin_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Montserrat Italic'), local('Montserrat-Italic'),
+       url('./fonts/montserrat/montserrat-v14-latin_cyrillic-italic.woff2') format('woff2'),
+       url('./fonts/montserrat/montserrat-v14-latin_cyrillic-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('./fonts/montserrat/montserrat-v14-latin_cyrillic-700.woff2') format('woff2'),
+       url('./fonts/montserrat/montserrat-v14-latin_cyrillic-700.woff') format('woff');
+}
+
 html {
   display: block;
   width: 100%;
@@ -14,11 +98,11 @@ body {
   margin: 0;
   min-width: 320px;
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.7145;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 
   color: #000;
   background-color: #fff;
@@ -256,11 +340,11 @@ body {
   border: 1px solid #DBDBDB;
   border-radius: 4px;
 
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.35714;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 
   color: #696969;
   background-color: #fff;
@@ -302,11 +386,11 @@ body {
   padding-left: 33px;
   padding-right: 33px;
 
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-size: 14px;
   line-height: 41px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 
   text-align: center;
   color: #FFF;
