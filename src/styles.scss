@@ -3,6 +3,7 @@
 @import "./styles/mixins.scss";
 @import "./components/message.scss";
 @import "./components/date-divider.scss";
+@import "./components/textarea-field.scss";
 
 html {
   @include block-default-styles;
@@ -90,34 +91,6 @@ body {
 
   max-width: 590px;
   margin-bottom: 20px;
-}
-
-.textarea-field {
-  @include block-default-styles;
-}
-
-.textarea-field__label {
-  @include visually-hidden;
-}
-
-.textarea-field__textarea {
-  @include block-default-styles;
-
-  max-height: 129px;
-  padding: 10px;
-
-  border: 1px solid #DBDBDB;
-  border-radius: 4px;
-
-  font-family: "Noto Sans", Arial, sans-serif;
-  font-size: 14px;
-  line-height: (19px / 14px);
-  font-style: normal;
-  font-weight: 400;
-
-  color: #696969;
-  background-color: #fff;
-  resize: none;
 }
 
 .chat-panel__button {

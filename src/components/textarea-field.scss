@@ -1,0 +1,31 @@
+@import "../styles/mixins.scss";
+
+$textarea-font-size: 14px;
+
+.textarea-field {
+  @include block-default-styles;
+
+  &__label {
+    @include visually-hidden;
+  }
+
+  &__textarea {
+    @include block-default-styles;
+
+    max-height: 129px;
+    padding: 10px;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: $textarea-font-size;
+    line-height: (19px / $textarea-font-size);
+    font-style: normal;
+    font-weight: 400;
+
+    color: #696969;
+    background-color: #fff;
+    resize: none;
+  }
+}
