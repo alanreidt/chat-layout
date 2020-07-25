@@ -1,0 +1,10 @@
+@import "../styles/mixins.scss";
+
+.dialog {
+  @include block-default-styles;
+
+  padding-top: 41px;
+  padding-bottom: 30px;
+
+  overflow: auto;
+}

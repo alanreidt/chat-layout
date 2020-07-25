@@ -1,6 +1,7 @@
 @import "./styles/fonts.scss";
 @import "./styles/variables.scss";
 @import "./styles/mixins.scss";
+@import "./components/dialog.scss";
 @import "./components/message.scss";
 @import "./components/date-divider.scss";
 @import "./components/chat-panel.scss";
@@ -62,15 +63,6 @@ body {
 
 .chat-window__dialog {
   flex: 1 0 0;
-
-  overflow: auto;
-}
-
-.dialog {
-  @include block-default-styles;
-
-  padding-top: 41px;
-  padding-bottom: 30px;
 
   overflow: auto;
 }
