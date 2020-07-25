@@ -198,8 +198,9 @@ body {
   display: inline-block;
   vertical-align: top;
 
+  margin-left: 15px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 30px;
 
   background: url("./img/background_tablet.jpg") #333 center top / contain fixed no-repeat;
 }
