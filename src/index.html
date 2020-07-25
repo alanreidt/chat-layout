@@ -9,14 +9,6 @@
   <title>WebChat — quickly send and receive messages right from your computer.</title>
 </head>
 <body>
-  <svg style="position: absolute; top: 0; left: 0;" width="0" height="0" visibility="hidden" aria-hidden="true">
-    <defs>
-      <clipPath visibility="visible" id="image-shape">
-        <path d="M0,16 L23,0 L46,16 L37,46 L9,46z" />
-      </clipPath>
-    </defs>
-  </svg>
-
   <div class="app">
     <div class="app__container">
       <div class="app__inner">
@@ -27,6 +19,11 @@
                 <div class="message">
                   <div class="message__img-wrapper">
                     <svg class="message__svg" width="46" viewBox="0 0 46 46" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs>
+                        <clipPath id="image-shape">
+                          <path d="M0,16 L23,0 L46,16 L37,46 L9,46z" />
+                        </clipPath>
+                      </defs>
                       <!-- use xlink:href, 'cause parcel-bundler ignores href attr on svg image tag -->
                       <image class="message__image" clip-path="url(#image-shape)" xlink:href="./img/user.png" x="0" y="-1" height="46" width="46" />
                     </svg>
