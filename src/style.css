@@ -305,14 +305,28 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  padding: 20px 41px 30px 20px;
+  padding: 20px;
+  padding-bottom: 30px;
 
   border-top: 1px solid #DBDBDB;
   box-sizing: border-box;
 }
 
 .chat-panel__textarea-field {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  max-width: 590px;
   margin-bottom: 20px;
+}
+
+.textarea-field {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .textarea-field__label {
