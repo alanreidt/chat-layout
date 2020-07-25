@@ -1,4 +1,5 @@
 @import "./components/message.scss";
+@import "./components/date-divider.scss";
 
 /* Roboto — latin and cyrillic */
 @font-face {
@@ -176,32 +177,6 @@ body {
 
   overflow: auto;
   box-sizing: border-box;
-}
-
-.date-divider {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-  height: 0;
-  margin-top: 29px;
-  margin-bottom: 30px;
-
-  border-top: 1px solid #DBDBDB;
-  box-sizing: border-box;
-}
-
-.date-divider__text {
-  display: inline-block;
-  vertical-align: top;
-
-  margin-left: 15px;
-  padding-left: 15px;
-  padding-right: 30px;
-
-  background: url("./img/background_tablet.jpg") #333 center top / contain fixed no-repeat;
 }
 
 .chat-window__panel {
