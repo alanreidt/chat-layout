@@ -1,0 +1,50 @@
+$button-height: 41px;
+$button-padding: 33px;
+
+.button {
+  /* reset <button>, <input> styles */
+  padding: 0;
+  border: none;
+  background-color: transparent;
+
+  /* reset <a> styles */
+  text-decoration: none;
+
+  /* add compatibility between html elements (<a>, <button>, <input>) */
+  cursor: pointer;
+
+  /* add standart behavior of a <button> to compatibility with <a> */
+  /* isolate component's rules from external influence */
+  display: inline-block;
+  vertical-align: top;
+
+  /* add standart behavior of a <button> to compatibility with <a> */
+  /* isolate component's rules from external influence */
+  box-sizing: border-box;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  width: auto;
+  max-width: 220px;
+  height: $button-height;
+  padding-left: $button-padding;
+  padding-right: $button-padding;
+
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 14px;
+  line-height: $button-height;
+  font-style: normal;
+  font-weight: 400;
+
+  text-align: center;
+  color: #FFF;
+  background-color: #0F54B9;
+  box-shadow: 0px 4px 6px rgba(15, 84, 185, 0.3);
+  border-radius: 21px;
+
+  &:hover {
+    background-color: #3b67a9;
+  }
+}
+
