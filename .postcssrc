@@ -1,6 +1,7 @@
 {
   "plugins": {
     "postcss-normalize": true,
+    "postcss-flexbugs-fixes": true,
     "autoprefixer": true
   }
 }
