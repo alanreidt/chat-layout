@@ -14,12 +14,10 @@ $button-padding: 33px;
   cursor: pointer;
 
   /* add standart behavior of a <button> to compatibility with <a> */
-  /* isolate component's rules from external influence */
   display: inline-block;
   vertical-align: top;
 
   /* add standart behavior of a <button> to compatibility with <a> */
-  /* isolate component's rules from external influence */
   box-sizing: border-box;
 
   text-overflow: ellipsis;
