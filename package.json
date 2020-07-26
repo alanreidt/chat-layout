@@ -19,7 +19,11 @@
     "url": "https://github.com/alanreidt/chat-layout/issues"
   },
   "homepage": "https://github.com/alanreidt/chat-layout#readme",
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
+    "autoprefixer": "^9.8.5",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.10"
   }
