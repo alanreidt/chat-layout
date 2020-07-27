@@ -59,9 +59,6 @@ I have had this picture in the mind:
 ### Text differences
 Slight difference in the message text corresponds to usage of the appropriate *m-dash* (—) symbols instead of the *dash* (-) and the *n-dash* (–).
 
-### the date-divider text differences
-
-
 ### Alternative font
 As *Proxima Nova* font isn't free, it was replaced by *Montserrat*, using a smaller font-size for compatibility.
 
