@@ -19,7 +19,7 @@
                 <div class="message">
                   <div class="message__img-wrapper">
                     <svg class="message__svg" width="46" viewBox="0 0 46 46" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <!-- need to repeat this block, otherwise parcel will lose id connection -->
+                      <!-- need to repeat clipPath for each image, otherwise parcel (or cssnano) will lose an id connection during minification of the file -->
                       <defs>
                         <clipPath id="image-shape">
                           <path d="M0,16 L23,0 L46,16 L37,46 L9,46z" />
