@@ -28,8 +28,5 @@
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-normalize": "^9.0.0",
     "sass": "^1.26.10"
-  },
-  "dependencies": {
-    "@csstools/normalize.css": "^10.1.0"
   }
 }
