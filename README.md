@@ -30,3 +30,40 @@ npm run build
 ```
 
 You can reach the page at http://localhost:3000/.
+
+## Notes
+### Markup
+I've tried to describe the markup as scalable as possible.
+
+I have had this picture in the mind:
+```html
+<div class="app">
+  <div class="app__container">
+    <div class="app__inner">
+      <div class="app__box">
+        <header class="app__header"></header>
+        <div class="app__body">
+          <div class="app__side-panel"></div>
+          <div class="app__chat-window">
+            <div class="chat-window">
+              <div class="chat-window__dialog"></div>
+              <div class="chat-window__panel"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+### Text differences
+Slight difference in the message text corresponds to usage of the appropriate *m-dash* (—) symbols instead of the *dash* (-) and the *n-dash* (–).
+
+### the date-divider text differences
+
+
+### Alternative font
+As *Proxima Nova* font isn't free, it was replaced by *Montserrat*, using a smaller font-size for compatibility.
+
+### Background image position
+As the box background image is aligned arbitrarily, I haven't positioned it exactly as on the template. Moreover, I've replaced it by one with higher resolution for better quality, as it requires to be fixed relative to the viewport in order to accomplish the `.date-divider` text effect.
