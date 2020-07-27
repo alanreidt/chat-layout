@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf docs && parcel build src/index.html --out-dir docs --public-url /chat-layout",
-    "dev": "parcel src/index.html -p 3000"
+    "dev": "parcel src/index.html -p 3000 --open"
   },
   "repository": {
     "type": "git",
