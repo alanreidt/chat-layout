@@ -1,11 +1,11 @@
 # chat-layout
 Realization of the [chat window layout](https://www.figma.com/file/aXI1GkPvjq0o8QqpmlMw0Jr9/test) with support for IE11+.
 
+[Demo-page](https://alanreidt.github.io/chat-layout/)
+
 Although, very small by size, this test task was interesting to perform — it required usage of several unusual layout techniques (as a pentagon shaped image and visual hiding of a line behind a text) and consideration of the best possible solutions on your own, ommited in the requirements (like usage of a paid font and typos in the text).
 
 Was realized as a part of AGIMA Frontend Developer test tasks.
-
-[Demo-page](https://alanreidt.github.io/chat-layout/)
 
 ## Aimed skills:
 - BEM naming convention,
