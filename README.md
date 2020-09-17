@@ -3,17 +3,17 @@ Realization of the [chat window layout](https://www.figma.com/file/aXI1GkPvjq0o8
 
 Although, very small by size, this test task was interesting to perform — it required usage of several unusual layout techniques (as a pentagon shaped image and visual hiding of a line behind a text) and consideration of the best possible solutions on your own, ommited in the requirements (like usage of a paid font and typos in the text).
 
-Aimed skills:
+Was realized as a part of AGIMA Frontend Developer test tasks.
+
+[Demo-page](https://alanreidt.github.io/chat-layout/)
+
+## Aimed skills:
 - BEM naming convention,
 - advanced layout techniques,
 - “pixel perfect” accordance with layout template,
 - UI/UX considerations,
 - compatibility with IE11+,
 - usage of SCSS capabilities.
-
-Part of AGIMA Frontend Developer test tasks.
-
-[Demo-page](https://alanreidt.github.io/chat-layout/)
 
 ## Non-standard dependencies
 - [postcss-normalize](https://github.com/csstools/postcss-normalize)
