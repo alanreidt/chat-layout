@@ -3,7 +3,7 @@ Realization of the [chat window layout](https://www.figma.com/file/aXI1GkPvjq0o8
 
 [Demo-page](https://alanreidt.github.io/chat-layout/)
 
-Although, very small by size, this test task was interesting to perform — it required usage of several unusual layout techniques (as a pentagon shaped image and visual hiding of a line behind a text) and consideration of the best possible solutions on your own, ommited in the requirements (like usage of a paid font and typos in the text).
+Although, very small by size, this test task was interesting to perform — it required usage of several unusual layout techniques (as a pentagon shaped image and visual hiding of a line behind text) and consideration of the best possible solutions on your own, omitted in the requirements (like usage of an alternative font and correction of typos in text).
 
 Was realized as a part of [AGIMA](https://www.agima.ru/) Frontend Developer test tasks.
 
